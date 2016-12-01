@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact name="testMaven">
+    <output-path>$PROJECT_DIR$/out/artifacts/testMaven</output-path>
+    <root id="root" />
+  </artifact>
+</component>
