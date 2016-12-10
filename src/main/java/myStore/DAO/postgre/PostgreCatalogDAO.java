@@ -53,7 +53,7 @@ public class PostgreCatalogDAO implements CatalogDAO{
 
     public List<storeCatalog> getAll() throws Exception{
 
-        String sql = "select * from categories;";
+        String sql = "select * from products;";
         List<storeCatalog> sc = new ArrayList<storeCatalog>();
         storeCatalog storeCatalog = null;
         Connection connection = null;
