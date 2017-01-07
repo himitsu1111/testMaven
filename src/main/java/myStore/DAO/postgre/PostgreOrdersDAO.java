@@ -67,7 +67,7 @@ public class PostgreOrdersDAO implements OrdersDAO {
         Double d = .0;
 //        int idInt = Integer.parseInt(customer_id);
         Array myArray = null;
-        ArrayList<String> myList = new ArrayList<>();
+        ArrayList<String> myList = new ArrayList<String>();
         Connection connection = null;
         PreparedStatement preparedStatement = null;
         PreparedStatement preparedStatement2 = null;
