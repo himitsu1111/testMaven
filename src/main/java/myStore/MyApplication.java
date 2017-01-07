@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 //Defines the base URI for all resource URIs.
-@ApplicationPath("/")
+@ApplicationPath("/restsrv/")
 //The java class declares root resource and provider classes
 public class MyApplication extends Application{
     //The method returns a non-empty collection with classes, that must be included in the published JAX-RS application
@@ -15,6 +15,7 @@ public class MyApplication extends Application{
         HashSet h = new HashSet<Class<?>>();
         h.add( HelloWorld.class );
         h.add( Categories.class );
+        h.add( Catalog.class);
         return h;
     }
 }

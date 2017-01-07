@@ -1,5 +1,6 @@
 package myStore.DAO;
 
+import myStore.DAO.POJO.CartWithNames;
 import myStore.DAO.POJO.storeCatalog;
 
 import java.util.List;
@@ -10,4 +11,5 @@ import java.util.List;
 public interface CatalogDAO {
     storeCatalog read() throws Exception;
     List<storeCatalog> getAll() throws Exception;
+    List<CartWithNames> getByCustomerId(int id) throws Exception;
 }
